@@ -1,4 +1,4 @@
-MONGODB_HOST: mongodb-{{ env }}.rakesh12.fun
+MONGODB_HOST: 10.0.21.180
 REDIS_HOST: redis-{{ env }}.rakesh12.fun
 CATALOGUE_HOST: catalogut-{{ env }}.rakesh12.fun
 CART_HOST: cart-{{ env }}.rakesh12.fun
