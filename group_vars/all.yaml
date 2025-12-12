@@ -1,9 +1,9 @@
-MONGODB_HOST: 54.242.24.98
-REDIS_HOST: 54.82.23.74
-CATALOGUE_HOST: 13.220.56.116
-CART_HOST: 54.90.192.54
-USER_HOST: 13.221.95.40
-RABBITMQ_HOST: 98.84.57.35
-MYSQL_HOST: 54.234.60.67
-SHIPPING_HOST: 34.228.10.49
-PAYMENT_HOST: 100.27.198.199
+MONGODB_HOST: mongodb-{{ env }}.rakesh12.fun
+REDIS_HOST: redis-{{ env }}.rakesh12.fun
+CATALOGUE_HOST: catalogut-{{ env }}.rakesh12.fun
+CART_HOST: cart-{{ env }}.rakesh12.fun
+USER_HOST: user-{{ env }}.rakesh12.fun
+RABBITMQ_HOST: rabbitmq-{{ env }}.rakesh12.fun
+MYSQL_HOST: mysql-{{ env }}.rakesh12.fun
+SHIPPING_HOST: shipping-{{ env }}.rakesh12.fun
+PAYMENT_HOST: payment-{{ env }}.rakesh12.fun
