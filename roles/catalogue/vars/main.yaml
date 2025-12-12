@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.rakesh12.fun
+MONGODB_HOST: mongodb-{{ env }}.rakesh12.fun
