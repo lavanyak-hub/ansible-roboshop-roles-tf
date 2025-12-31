@@ -1,9 +1,9 @@
-MONGODB_HOST: 10.0.21.180
+MONGODB_HOST: 10.0.21.123
 REDIS_HOST: redis-{{ env }}.rakesh12.fun
-CATALOGUE_HOST: catalogut-{{ env }}.rakesh12.fun
-CART_HOST: cart-{{ env }}.rakesh12.fun
-USER_HOST: user-{{ env }}.rakesh12.fun
+CATALOGUE_HOST: catalogut.backend-alb-{{ env }}.rakesh12.fun
+CART_HOST: cart.backend-alb-{{ env }}.rakesh12.fun
+USER_HOST: user.backend-alb-{{ env }}.rakesh12.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.rakesh12.fun
 MYSQL_HOST: mysql-{{ env }}.rakesh12.fun
-SHIPPING_HOST: shipping-{{ env }}.rakesh12.fun
-PAYMENT_HOST: payment-{{ env }}.rakesh12.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.rakesh12.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.rakesh12.fun
